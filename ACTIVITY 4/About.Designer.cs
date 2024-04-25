@@ -60,9 +60,9 @@
             // 
             this.PharmaDes.BackColor = System.Drawing.Color.White;
             this.PharmaDes.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PharmaDes.Location = new System.Drawing.Point(287, 75);
+            this.PharmaDes.Location = new System.Drawing.Point(277, 95);
             this.PharmaDes.Name = "PharmaDes";
-            this.PharmaDes.Size = new System.Drawing.Size(546, 235);
+            this.PharmaDes.Size = new System.Drawing.Size(603, 289);
             this.PharmaDes.TabIndex = 0;
             this.PharmaDes.Text = resources.GetString("PharmaDes.Text");
             this.PharmaDes.Click += new System.EventHandler(this.label1_Click);
