@@ -52,7 +52,7 @@ namespace ACTIVITY_4
         }
         private void LogoutA_Click(object sender, EventArgs e)
         { // Display a confirmation message
-            DialogResult result = MessageBox.Show("Are you sure that you want to logout?", "Logout Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = MessageBox.Show("Are you sure that you want to logout???", "Logout Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             // Check the user's response
             if (result == DialogResult.Yes)
